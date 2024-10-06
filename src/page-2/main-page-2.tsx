@@ -6,7 +6,7 @@ import { CreateDescriptionBlock } from './components/main/description-field'
 import { vacancyDescriptionField } from './data/vacancies-description'
 import { CreateButtons } from './components/main/buttons'
 
-const Page2 = () => {
+export const Page2 = () => {
 	return (
 		<div className="container mx-auto pb-6">
 			<HeaderWrapper />
@@ -17,5 +17,3 @@ const Page2 = () => {
 		</div>
 	)
 }
-
-export default Page2
