@@ -4,7 +4,7 @@ import { Page2 } from './page-2/main-page-2';
 
 function App() {
 	return (
-		<Router>
+		<Router basename="/Vacancies-lending/">
 			<div className="container mx-auto pb-6">
 				<Routes>
 					<Route path="/" element={<Page1 />} />
@@ -12,7 +12,7 @@ function App() {
 				</Routes>
 			</div>
 		</Router>
-	)
+	);
 }
 
 export default App;
